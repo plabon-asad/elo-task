@@ -1,13 +1,69 @@
 
 <div class="wrap">
-  <div class="container">
-    <h1 class="text-center">Hi, How are you?</h1>
+  <h1 class="text-center m-5">PROGRAMMING TASK</h1>
+  <div class="container bg-gray">
+
     <div class="main-body">
-      <div class="card">
-        <div class="card-body">
-          <p>This is thee card body...</p>
+      <div class="row">
+        <div class="col-md-6 mb-3 left-side">
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+                <h4>Live Timer</h4>
+              </div>
+              <div class="col-6 text-rightx">
+                <button class="btn btn-outline-success btn-sm" type="button" >
+                  <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                  <span class="sr-only">Loading...</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-3 right-side">
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+                <h4>Task Tables</h4>
+              </div>
+              <div class="col-6 text-right">
+                <button class="btn btn-outline-primary">
+                  <i class="fa fa-plus"></i> Add Task
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <table class="table table-striped table-hover table-bordered">
+            <thead>
+            <tr class="text-center">
+              <th>Name</th>
+              <th>Duration</th>
+              <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>Task 1</td>
+              <td>150 seconds</td>
+              <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+            </tr>
+            <tr>
+              <td>Task 2</td>
+              <td>15 seconds</td>
+              <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+            </tr>
+            <tr>
+              <td>Task 3</td>
+              <td>15 seconds</td>
+              <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+            </tr>
+            </tbody>
+          </table>
         </div>
       </div>
+
     </div>
   </div>
 </div>
